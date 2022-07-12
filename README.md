@@ -37,6 +37,16 @@ Updated Analysis
 * While the average math, reading and overall scores at Thomas High School were impacted with the update, the changes were not enough to change its relative ranking versus other schools. The changes only had a small impact of less than a change of 1 percentage point on each metric.
 ### Replacing the ninth-grade scores affect the following:
 #### Math and reading scores by grade
+Initial Analysis
+
+<img width="325" alt="Screen Shot 2022-07-12 at 12 31 55 AM" src="https://user-images.githubusercontent.com/107584361/178437026-e662756c-f823-4519-bf41-35513e891996.png">        <img width="326" alt="Screen Shot 2022-07-12 at 12 32 39 AM" src="https://user-images.githubusercontent.com/107584361/178437074-99aef548-594b-434d-8740-72688d29063a.png">
+
+Updated Analysis
+
+<img width="330" alt="Screen Shot 2022-07-12 at 12 34 43 AM" src="https://user-images.githubusercontent.com/107584361/178437198-5f11ca5e-ccb9-46f7-9a94-5c57707d48de.png">         <img width="335" alt="Screen Shot 2022-07-12 at 12 35 27 AM" src="https://user-images.githubusercontent.com/107584361/178437251-6e55606f-0482-405e-a992-f4ecd689f9ca.png">
+
+* The only score that is impacted on this DataFrame is that the grade 9 students at Thomas High School have Nan instead of a grade for both math and reading.
+#### Scores by school spending
 
 
 
