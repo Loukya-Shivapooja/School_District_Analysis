@@ -47,12 +47,51 @@ Updated Analysis
 
 * The only score that is impacted on this DataFrame is that the grade 9 students at Thomas High School have Nan instead of a grade for both math and reading.
 #### Scores by school spending
+Initial Analysis
 
+<img width="858" alt="Screen Shot 2022-07-12 at 12 52 50 AM" src="https://user-images.githubusercontent.com/107584361/178548895-d8200096-72b9-49fa-b342-fa9d1312fd55.png">
 
+Updated analysis
 
+<img width="835" alt="Screen Shot 2022-07-12 at 12 54 01 AM" src="https://user-images.githubusercontent.com/107584361/178548919-d99f8da5-20da-4866-92b5-3b0b3d2e8112.png">
 
+* There was a slight change by school spending groups scores for the $630-644 per student grouping as this is where Thomas High School is grouped. 
+* However the change is small with each metric changing less than 0.1 percentage points (or change of less than 0.1%).
 
+#### Scores by school size
+Initial Analysis
 
+<img width="782" alt="Screen Shot 2022-07-12 at 12 55 02 AM" src="https://user-images.githubusercontent.com/107584361/178550183-e8bc4231-f7fb-4faa-bc5d-aa2de5df02f8.png">
+
+Updated Analysis
+
+<img width="776" alt="Screen Shot 2022-07-12 at 12 55 54 AM" src="https://user-images.githubusercontent.com/107584361/178550247-2c274610-190b-4070-93dc-3be9b3db1795.png">
+
+* There is no change or impact after the updated Thomas High School 9th grade to NaN. 
+* As the percentage is rounded to zero decimal. There is no much change in the overall performance of schools by school size.
+
+#### Scores by school type
+Initial Analysis
+
+<img width="727" alt="Screen Shot 2022-07-12 at 10 10 31 AM" src="https://user-images.githubusercontent.com/107584361/178552221-aa37e6ba-7ed6-4eb6-b284-ea929ef15c1e.png">
+
+Updated Analysis
+
+<img width="726" alt="Screen Shot 2022-07-12 at 10 11 01 AM" src="https://user-images.githubusercontent.com/107584361/178552306-ac859243-b8db-4b42-b476-4b793722bdad.png">
+
+* Thomas High School is a charter school type. The hundredths place was needed to see the nominal changes.
+* There is no noticeable change by school type.
+# Summary
+Major changes to the school district analysis after reading and math scores have been replaced are:
+* The first replacement of the 9th grade values with Nan bring down all the scores of Thomas High School. But then, at the end of our Analysis, we replace the school summary code with code that only counts the 10th-12th grade passing data. This brings our data back up. In our final dataframe therefore:
+  * The grades % increased for Thomas High School so it went from a low performing to a high performing school
+  * The % Passing Math Scores for Thomas High School returned back up to 93 from 66.9
+  * The % Passing Reading returned back up to 97 from 69.6
+  * The overall percentage of the passing returned back up to 90 from 65.
+
+<img width="1017" alt="Screen Shot 2022-07-12 at 10 25 10 AM" src="https://user-images.githubusercontent.com/107584361/178558352-e3344d36-3966-435d-8526-b7779fba4430.png">
+
+<img width="1001" alt="Screen Shot 2022-07-12 at 10 25 50 AM" src="https://user-images.githubusercontent.com/107584361/178558386-1b8f14ea-933d-466a-96a0-52c025f338f0.png">
 
 
 
